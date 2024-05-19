@@ -30,4 +30,4 @@ ENV REDIS_PORT=6379
 
 COPY main.go /app/main.go
 
-CMD ["go", "run", "app/main-env.go"]
+CMD ["./main"]
